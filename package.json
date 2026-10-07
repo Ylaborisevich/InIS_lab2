@@ -1,0 +1,10 @@
+{
+  "name": "lab2",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix blog-platform run dev",
+    "build": "npm --prefix blog-platform run build",
+    "lint": "npm --prefix blog-platform run lint",
+    "preview": "npm --prefix blog-platform run preview"
+  }
+}

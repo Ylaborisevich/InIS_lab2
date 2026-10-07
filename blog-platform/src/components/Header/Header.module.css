@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background: #e8e8e8;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 32px;
+  width: auto;
+  display: block;
+  background: transparent;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.username {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: contain;
+  background: transparent;
+}
